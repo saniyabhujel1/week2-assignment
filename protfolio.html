@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Defines the character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the webpage responsive on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title displayed on the browser tab -->
+    <title>Saniya Bhujel - Personal Portfolio</title>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+
+        <!-- Main title of the portfolio -->
+        <h1>Saniya Bhujel - Personal Portfolio</h1>
+
+        <!-- Navigation menu for moving between sections -->
+        <nav>
+
+            <!-- Unordered list containing navigation links -->
+            <ul>
+                
+                <!-- Link to the About section -->
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <!-- Link to the Skills section -->
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <!-- Link to the Projects section -->
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <!-- Link to the Contact section -->
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--  MAIN CONTENT -->
+    <main>
+        
+        <!--  ABOUT SECTION -->
+        <section id="about">
+
+            <!-- About section heading -->
+            <h2>About Me</h2>
+
+            <!-- Profile image with alternative text -->
+            <img src="saniyabhujel.jpeg"
+                 alt="Profile photo of Saniya Bhujel"
+                 width="200">
+
+            <!-- Short biography -->
+            <p>
+                I am Saniya Bhujel, a BIT student interested in UI/UX design,
+                photo and video editing, web design, and web development.
+                I enjoy creating simple and user-friendly designs and
+                learning new technologies. I am developing my skills through
+                academic projects and practical work.
+            </p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+
+            <!-- Skills section heading -->
+            <h2>Technical Skills</h2>
+
+            <!-- Descriptive list of technical skills -->
+            <dl>
+
+                <!-- UI/UX Design skill -->
+                <dt>UI/UX Design</dt>
+                <dd>
+                    Creating simple, attractive, and user-friendly
+                    website and application interfaces.
+                </dd>
+
+                <!-- HTML skill -->
+                <dt>HTML</dt>
+                <dd>
+                    Used to create and structure web pages.
+                </dd>
+
+                <!-- CSS skill -->
+                <dt>CSS</dt>
+                <dd>
+                    Used to style and improve the appearance of websites.
+                </dd>
+
+                <!-- JavaScript skill -->
+                <dt>JavaScript</dt>
+                <dd>
+                    Used to add interactive features to websites.
+                </dd>
+
+                <!-- Web Development skill -->
+                <dt>Web Development</dt>
+                <dd>
+                    Creating and developing functional websites.
+                </dd>
+
+                <!-- Editing skill -->
+                <dt>Photo and Video Editing</dt>
+                <dd>
+                    Editing images and videos for creative and digital content.
+                </dd>
+            </dl>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+
+            <!-- Projects section heading -->
+            <h2>Projects</h2>
+
+            <!-- PROJECT 1 -->
+            <article>
+
+                <!-- Project title -->
+                <h3>Project 1: Personal Portfolio Website</h3>
+
+                <!-- Project description -->
+                <p>
+                    This project is a personal portfolio website created
+                    using semantic HTML5. It contains information about
+                    my profile, skills, projects, and contact details.
+                </p>
+
+                <!-- Link to the project repository -->
+                <p>
+                    <a href="https://github.com/saniyabhujel1" target="_blank">
+                        View Project Repository
+                    </a>
+                </p>
+
+            </article>
+
+            <!-- PROJECT 2 -->
+            <article>
+
+                <!-- Project title -->
+                <h3>Project 2: Student Registration Website</h3>
+
+                <!-- Project description -->
+                <p>
+                    This project is a simple student registration website
+                    created using HTML. It includes forms, input fields,
+                    selection options, and a submit button.
+                </p>
+
+                <!-- Link to the project repository -->
+                <p>
+                    <a href="https://github.com/saniyabhujel1" target="_blank">
+                        View Project Repository
+                    </a>
+                </p>
+            </article>
+
+            <!-- PROJECT 3 -->
+            <article>
+
+                <!-- Project title -->
+                <h3>Project 3: UI/UX Design Project</h3>
+
+                <!-- Project description -->
+                <p>
+                    This project focuses on creating a simple and
+                    user-friendly interface. The design focuses on
+                    clear navigation, simple layouts, and a good user
+                    experience.
+                </p>
+
+                <!-- Link to the project repository -->
+                <p>
+                    <a href="https://github.com/saniyabhujel1" target="_blank">
+                        View Project Repository
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+
+            <!-- Contact section heading -->
+            <h2>Contact Me</h2>
+
+            <!-- Contact form -->
+            <form action="#" method="post">
+
+                <!-- Name input field -->
+                <p>
+
+                    <!-- Label connected to the name input -->
+                    <label for="name">Name:</label>
+
+                    <!-- Text input for user's name -->
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           required>
+                </p>
+
+                <!-- Email input field -->
+                <p>
+
+                    <!-- Label connected to the email input -->
+                    <label for="email">Email:</label>
+
+                    <!-- Email input for user's email address -->
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           required>
+                </p>
+
+                <!-- Message input field -->
+                <p>
+
+                    <!-- Label connected to the message box -->
+                    <label for="message">Message:</label>
+
+                    <!-- Text area for writing a message -->
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="30"
+                              required></textarea>
+                </p>
+
+                <!-- Submit button -->
+                <p>
+                    <button type="submit">
+                        Submit
+                    </button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+
+        <!-- Copyright information -->
+        <p>
+            &copy; 2026 Saniya Bhujel. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
